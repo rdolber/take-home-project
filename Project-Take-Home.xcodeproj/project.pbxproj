@@ -14,6 +14,8 @@
 		77044D4228B73B7500F264B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77044D4028B73B7500F264B2 /* LaunchScreen.storyboard */; };
 		77044D4C28B73D6300F264B2 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77044D4B28B73D6300F264B2 /* SearchVC.swift */; };
 		77044D4E28B73D8000F264B2 /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77044D4D28B73D8000F264B2 /* FavoritesListVC.swift */; };
+		77044D5028B742C900F264B2 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77044D4F28B742C900F264B2 /* GFButton.swift */; };
+		776317D728B74D3500EB9693 /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776317D628B74D3500EB9693 /* GFTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		77044D4328B73B7500F264B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77044D4B28B73D6300F264B2 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		77044D4D28B73D8000F264B2 /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
+		77044D4F28B742C900F264B2 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
+		776317D628B74D3500EB9693 /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				77044D4928B73BA800F264B2 /* Resources */,
 				77044D3928B73B7400F264B2 /* ViewController.swift */,
 				77044D4328B73B7500F264B2 /* Info.plist */,
+				77044D4F28B742C900F264B2 /* GFButton.swift */,
+				776317D628B74D3500EB9693 /* GFTextField.swift */,
 			);
 			path = "Project-Take-Home";
 			sourceTree = "<group>";
@@ -158,9 +164,11 @@
 			files = (
 				77044D4C28B73D6300F264B2 /* SearchVC.swift in Sources */,
 				77044D3A28B73B7400F264B2 /* ViewController.swift in Sources */,
+				77044D5028B742C900F264B2 /* GFButton.swift in Sources */,
 				77044D4E28B73D8000F264B2 /* FavoritesListVC.swift in Sources */,
 				77044D3628B73B7400F264B2 /* AppDelegate.swift in Sources */,
 				77044D3828B73B7400F264B2 /* SceneDelegate.swift in Sources */,
+				776317D728B74D3500EB9693 /* GFTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
