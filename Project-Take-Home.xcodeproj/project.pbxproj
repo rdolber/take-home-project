@@ -18,6 +18,10 @@
 		776317D728B74D3500EB9693 /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776317D628B74D3500EB9693 /* GFTextField.swift */; };
 		776317DB28B858D200EB9693 /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776317DA28B858D200EB9693 /* FollowerListVC.swift */; };
 		776317DE28B85B1F00EB9693 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776317DD28B85B1F00EB9693 /* String+Ext.swift */; };
+		776317E028B8AF3700EB9693 /* GFTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776317DF28B8AF3700EB9693 /* GFTitleLabel.swift */; };
+		776317E228B8B04400EB9693 /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776317E128B8B04400EB9693 /* GFBodyLabel.swift */; };
+		776317E428B8B0C600EB9693 /* GFAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776317E328B8B0C600EB9693 /* GFAlertVC.swift */; };
+		77E8099028B94C9A00203220 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E8098F28B94C9A00203220 /* UIViewController+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +38,10 @@
 		776317D628B74D3500EB9693 /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 		776317DA28B858D200EB9693 /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 		776317DD28B85B1F00EB9693 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		776317DF28B8AF3700EB9693 /* GFTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTitleLabel.swift; sourceTree = "<group>"; };
+		776317E128B8B04400EB9693 /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
+		776317E328B8B0C600EB9693 /* GFAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertVC.swift; sourceTree = "<group>"; };
+		77E8098F28B94C9A00203220 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,9 @@
 				77044D4F28B742C900F264B2 /* GFButton.swift */,
 				776317D628B74D3500EB9693 /* GFTextField.swift */,
 				776317DA28B858D200EB9693 /* FollowerListVC.swift */,
+				776317DF28B8AF3700EB9693 /* GFTitleLabel.swift */,
+				776317E128B8B04400EB9693 /* GFBodyLabel.swift */,
+				776317E328B8B0C600EB9693 /* GFAlertVC.swift */,
 			);
 			path = "Project-Take-Home";
 			sourceTree = "<group>";
@@ -101,6 +112,7 @@
 		776317DC28B85B0F00EB9693 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				77E8098F28B94C9A00203220 /* UIViewController+Ext.swift */,
 				776317DD28B85B1F00EB9693 /* String+Ext.swift */,
 			);
 			path = Extensions;
@@ -177,13 +189,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				776317DE28B85B1F00EB9693 /* String+Ext.swift in Sources */,
+				77E8099028B94C9A00203220 /* UIViewController+Ext.swift in Sources */,
 				77044D4C28B73D6300F264B2 /* SearchVC.swift in Sources */,
 				77044D3A28B73B7400F264B2 /* ViewController.swift in Sources */,
 				77044D5028B742C900F264B2 /* GFButton.swift in Sources */,
+				776317E428B8B0C600EB9693 /* GFAlertVC.swift in Sources */,
 				77044D4E28B73D8000F264B2 /* FavoritesListVC.swift in Sources */,
 				77044D3628B73B7400F264B2 /* AppDelegate.swift in Sources */,
+				776317E228B8B04400EB9693 /* GFBodyLabel.swift in Sources */,
 				77044D3828B73B7400F264B2 /* SceneDelegate.swift in Sources */,
 				776317DB28B858D200EB9693 /* FollowerListVC.swift in Sources */,
+				776317E028B8AF3700EB9693 /* GFTitleLabel.swift in Sources */,
 				776317D728B74D3500EB9693 /* GFTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
