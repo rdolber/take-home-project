@@ -21,6 +21,9 @@
 		776317E228B8B04400EB9693 /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776317E128B8B04400EB9693 /* GFBodyLabel.swift */; };
 		776317E428B8B0C600EB9693 /* GFAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776317E328B8B0C600EB9693 /* GFAlertVC.swift */; };
 		77E8099028B94C9A00203220 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E8098F28B94C9A00203220 /* UIViewController+Ext.swift */; };
+		77E8099528B9F73000203220 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E8099428B9F73000203220 /* Follower.swift */; };
+		77E8099728B9FA3D00203220 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E8099628B9FA3D00203220 /* User.swift */; };
+		77E8099A28B9FCFA00203220 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E8099928B9FCFA00203220 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,9 @@
 		776317E128B8B04400EB9693 /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
 		776317E328B8B0C600EB9693 /* GFAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertVC.swift; sourceTree = "<group>"; };
 		77E8098F28B94C9A00203220 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		77E8099428B9F73000203220 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
+		77E8099628B9FA3D00203220 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		77E8099928B9FCFA00203220 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,10 +78,11 @@
 		77044D3428B73B7400F264B2 /* Project-Take-Home */ = {
 			isa = PBXGroup;
 			children = (
+				77E8099828B9FCF000203220 /* Managers */,
 				77E8099328B962DD00203220 /* Model */,
 				77E8099128B9623C00203220 /* Custom Views */,
 				776317DC28B85B0F00EB9693 /* Extensions */,
-				77044D4A28B73D4700F264B2 /* Screen */,
+				77044D4A28B73D4700F264B2 /* Screens */,
 				77044D4928B73BA800F264B2 /* Support */,
 				77044D4328B73B7500F264B2 /* Info.plist */,
 			);
@@ -93,14 +100,14 @@
 			path = Support;
 			sourceTree = "<group>";
 		};
-		77044D4A28B73D4700F264B2 /* Screen */ = {
+		77044D4A28B73D4700F264B2 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
 				77044D4D28B73D8000F264B2 /* FavoritesListVC.swift */,
 				776317DA28B858D200EB9693 /* FollowerListVC.swift */,
 				77044D4B28B73D6300F264B2 /* SearchVC.swift */,
 			);
-			path = Screen;
+			path = Screens;
 			sourceTree = "<group>";
 		};
 		776317DC28B85B0F00EB9693 /* Extensions */ = {
@@ -135,8 +142,18 @@
 		77E8099328B962DD00203220 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				77E8099628B9FA3D00203220 /* User.swift */,
+				77E8099428B9F73000203220 /* Follower.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		77E8099828B9FCF000203220 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				77E8099928B9FCFA00203220 /* NetworkManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,11 +231,14 @@
 				77044D4C28B73D6300F264B2 /* SearchVC.swift in Sources */,
 				77044D5028B742C900F264B2 /* GFButton.swift in Sources */,
 				776317E428B8B0C600EB9693 /* GFAlertVC.swift in Sources */,
+				77E8099528B9F73000203220 /* Follower.swift in Sources */,
+				77E8099728B9FA3D00203220 /* User.swift in Sources */,
 				77044D4E28B73D8000F264B2 /* FavoritesListVC.swift in Sources */,
 				77044D3628B73B7400F264B2 /* AppDelegate.swift in Sources */,
 				776317E228B8B04400EB9693 /* GFBodyLabel.swift in Sources */,
 				77044D3828B73B7400F264B2 /* SceneDelegate.swift in Sources */,
 				776317DB28B858D200EB9693 /* FollowerListVC.swift in Sources */,
+				77E8099A28B9FCFA00203220 /* NetworkManager.swift in Sources */,
 				776317E028B8AF3700EB9693 /* GFTitleLabel.swift in Sources */,
 				776317D728B74D3500EB9693 /* GFTextField.swift in Sources */,
 			);
